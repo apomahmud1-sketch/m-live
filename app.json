@@ -1,0 +1,51 @@
+{
+  "android": {
+    "adaptiveIcon": {
+      "backgroundColor": "#7c3aed",
+      "foregroundImage": "./assets/icon.png"
+    },
+    "package": "com.mlive.app",
+    "permissions": [
+      "CAMERA",
+      "RECORD_AUDIO",
+      "INTERNET"
+    ],
+    "versionCode": 1
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "displayName": "M Live",
+  "extra": {
+    "AGORA_APP_ID": "ac11cdc3f22b4f86bb2fceab3820b8d7",
+    "eas": {
+      "projectId": "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "icon": "./assets/icon.png",
+  "ios": {
+    "bundleIdentifier": "com.mlive.app",
+    "infoPlist": {
+      "NSCameraUsageDescription": "M Live needs camera access so approved hosts can go live.",
+      "NSMicrophoneUsageDescription": "M Live needs microphone access so approved hosts can go live."
+    },
+    "supportsTablet": true
+  },
+  "name": "m-live",
+  "orientation": "portrait",
+  "plugins": [
+    "expo-av"
+  ],
+  "scheme": "mlive",
+  "slug": "m-live",
+  "splash": {
+    "backgroundColor": "#7c3aed",
+    "image": "./assets/splash.png",
+    "resizeMode": "contain"
+  },
+  "userInterfaceStyle": "light",
+  "version": "1.0.0",
+  "web": {
+    "favicon": "./assets/icon.png"
+  }
+}
