@@ -19,7 +19,7 @@
   "extra": {
     "AGORA_APP_ID": "ac11cdc3f22b4f86bb2fceab3820b8d7",
     "eas": {
-      "projectId": "00000000-0000-0000-0000-000000000000"
+      "projectId": "fa0f08a5-0dde-430e-a549-2ae066d67337"
     }
   },
   "icon": "./assets/icon.png",
